@@ -3,3 +3,9 @@ Metodo Burbuja
 
 Resultado
 ![alt text](assets/terminal_15_10.png)
+
+Metodo Selection
+![alt text](assets/terminal_selection.png)
+
+Resultado
+![alt text](assets/image.png)
