@@ -5,7 +5,7 @@ public class Selection {
         int intercambios = 0;
         for (int i = 0; i < arreglo.length; i++) {
             int min = i;
-            System.out.println("Pasada " + i + "|" + arreglo[i] + "<->" + (min+1));
+            System.out.println("Pasada " + i + "|" + arreglo[min] + "<->" + (i + 1));
             for (int j = i + 1; j < arreglo.length; j++) {
                 comparaciones++;
                 if (arreglo[j] > arreglo[min]) {
@@ -18,6 +18,7 @@ public class Selection {
                 int auxiliar=arreglo[i];
                 arreglo[i]=arreglo[min];
                 arreglo[min]=auxiliar;
+                System.out.println("Pasada " + i + "|" + arreglo[min] + "<->" + (i + 1));
             }
         }
         System.out.println("Cambios: " + intercambios);
