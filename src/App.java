@@ -5,7 +5,7 @@ import models.Estudiante;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //runEjemplosPrimitivos();
+        //runEjemplosPrimitivos(); para los primitivos
         runEjemplosObjetos();
         runComparators();
     }
